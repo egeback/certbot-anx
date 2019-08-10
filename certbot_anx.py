@@ -31,7 +31,7 @@ class ANXAuthenticator(DNSAuthenticator):
         self.credentials = None
 
     @classmethod
-    def add_parser_arguments(cls, add, default_propagation_seconds=15 * 60):
+    def add_parser_arguments(cls, add, default_propagation_seconds=0.5 * 60):
         super(ANXAuthenticator, cls).add_parser_arguments(
             add, default_propagation_seconds)
         add("credentials", help="ANX API credentials INI file.")
