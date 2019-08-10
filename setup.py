@@ -1,25 +1,23 @@
 from setuptools import setup
+import setuptools
 
-
-try:
-    long_desc = open("README.md").read()
-except:
-    print("Skipping README.py_modules for long description as it was not found")
-    long_desc = None
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 setup(
     name="certbot_anx",
-    version="0.0.1",
+    version="0.1",
     description="ANX DNS authentication plugin for Certbot",
-    long_description=long_desc,
     license="BSD",
     author="Marky Egebäck",
     author_email="marky@egeback.se",
     url="https://github.com/egeback/pycertbot-anx",
     py_modules=["certbot_anx"],
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     install_requires=[
         "certbot>=0.37.0",
-        #"pyanxdns>=1.0",
+        "pyanxdns>=0.2",
         "zope.interface>=4.4.0"
     ],
     entry_points={
@@ -28,7 +26,7 @@ setup(
         ],
     },
     classifiers=[
-        "Development Status :: 2 - Pre-Alpha",
+        "Development Status :: 3 - Alpha",
         "Environment :: Plugins",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: BSD License",
