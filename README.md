@@ -20,10 +20,9 @@ To use the authenticator you need to provide some required options:
 
 The credentials file must have the folling format:
 
-.. code-block::
-
+```
    certbot_anx:api_key = codegoeshere
-   
+```
 For safety reasons the file must not be world readable. You can solve this by
 running:
 
