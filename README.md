@@ -1,7 +1,7 @@
 ANX DNS Authenticator for Certbot
 =================================
-This allows automatic completion of `Certbot's <https://github.com/certbot/certbot>`_
-DNS01 challange for domains managed on `Loopia <https://dyn.anx.se/api/dns/>`_ DNS.
+This allows automatic completion of [`Certbot's])https://github.com/certbot/certbot)
+DNS01 challange for domains managed on [ANX](https://dyn.anx.se/api/dns/) DNS.
 
 Installing
 ----------
