@@ -1,7 +1,12 @@
 ANX DNS Authenticator for Certbot
 =================================
 This allows automatic completion of [Certbot's](https://github.com/certbot/certbot)
-DNS01 challange for domains managed on [ANX DNS](https://dyn.anx.se/api/dns/).
+DNS01 challange for domains managed on [ANX DNS](https://dyn.anx.se/api/dns/)
+
+Important information
+---------------------
+PLEASE NOTE THAT ONE OF THE DEPENDENCIES TO THE LIBRARY INCLUDED A BAD INSTALL_REQUIRES.
+
 
 Installing
 ----------

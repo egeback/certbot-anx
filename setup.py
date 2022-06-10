@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="certbot_anx",
-    version="0.1",
+    version="0.1.5",
     description="ANX DNS authentication plugin for Certbot",
     license="BSD",
     author="Marky Egebäck",
@@ -17,7 +17,7 @@ setup(
     long_description_content_type="text/markdown",
     install_requires=[
         "certbot>=0.37.0",
-        "pyanxdns>=0.2",
+        "pyanxdns>=0.2.5",
         "zope.interface>=4.4.0"
     ],
     entry_points={
