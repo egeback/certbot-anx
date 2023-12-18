@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="certbot_anx",
-    version="0.1.5",
+    version="1.0.0",
     description="ANX DNS authentication plugin for Certbot",
     license="BSD",
     author="Marky Egebäck",
