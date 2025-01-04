@@ -1,3 +1,6 @@
+# Depricated
+This repo is deprecated and archived.
+
 ANX DNS Authenticator for Certbot
 =================================
 This allows automatic completion of [Certbot's](https://github.com/certbot/certbot)
